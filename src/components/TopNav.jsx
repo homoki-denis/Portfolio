@@ -19,12 +19,14 @@ const TopNav = () => {
 
   return (
     <div className="topnav">
-      <img
-        src="https://vscode-portfolio.vercel.app/_next/image?url=%2Fvscode_icon.svg&w=16&q=75"
-        alt="vscode"
-        className="topnav-img"
-      />
-      <div className="navbarItems">{navbarTop}</div>
+      <div className="navbarItems">
+        <img
+          src="https://vscode-portfolio.vercel.app/_next/image?url=%2Fvscode_icon.svg&w=16&q=75"
+          alt="vscode"
+          className="topnav-img"
+        />
+        {navbarTop}
+      </div>
       <div className="navbarName">{navbarTopName}</div>
       <div className="navbarButtonsItems">{navbarTopButtons}</div>
     </div>
