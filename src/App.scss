@@ -1,0 +1,13 @@
+@import "./styles/topNav";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background-color: #24292e;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}

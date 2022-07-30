@@ -1,0 +1,45 @@
+.topnav {
+  background-color: #1f2428;
+  display: flex;
+  position: relative;
+  align-items: center;
+
+  padding: 0.3rem;
+  .topnav-img {
+    width: 1.2rem;
+    margin: 0 0.5rem;
+  }
+
+  .navbarItems {
+    padding: 0.3rem 0;
+    margin-right: auto;
+  }
+  .topNavLinks {
+    padding: 0.2rem 1rem;
+
+    border-radius: 5px;
+    &:hover {
+      background-color: #24292e;
+      cursor: pointer;
+    }
+  }
+  .navbarName {
+    position: absolute;
+    left: 45%;
+    bottom: 5px;
+    padding: 0.1rem;
+    top: 7px;
+  }
+
+  .navbarButtonsItems {
+    height: 1rem;
+    color: #fff;
+    .topNavButtons {
+      height: 1rem;
+      padding: 0 1rem;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
