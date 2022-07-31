@@ -1,4 +1,7 @@
 @import "./styles/topNav";
+@import "./styles/sidebar";
+@import "./styles/footer";
+
 * {
   margin: 0;
   padding: 0;
@@ -10,4 +13,8 @@ html {
   background-color: #24292e;
   color: #fff;
   font-family: "Roboto", sans-serif;
+}
+
+.main-content {
+  display: flex;
 }
