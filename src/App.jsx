@@ -17,7 +17,9 @@ function App() {
         <SecondSideBar />
         <div className="main-content">
           <Navbar />
-          <div>main content</div>
+          <div>
+            <h1>Home Main Content</h1>
+          </div>
         </div>
       </div>
 

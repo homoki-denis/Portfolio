@@ -18,9 +18,14 @@
 
 .sidebar-container {
   width: 100%;
+
   cursor: pointer;
   &:hover {
     background-color: #1f2428;
+  }
+  .sidebar-active {
+    border-left: 2px solid #fff;
+    fill: rgb(225, 228, 232);
   }
 }
 

@@ -3,7 +3,7 @@ import React from "react";
 function Navbar() {
   return (
     <div className="navbar">
-      <div className="navbar-items">
+      <div className="navbar-items navbar-active">
         <img
           src="https://vscode-portfolio.vercel.app/_next/image?url=%2Freact_icon.svg&w=32&q=75"
           alt="react"

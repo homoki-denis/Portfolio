@@ -2,12 +2,16 @@
   display: flex;
   background-color: #1f2428;
   overflow-x: auto;
+  .navbar-active {
+    background-color: #24292e;
+    border-top: 1px solid #fff;
+  }
   .navbar-items {
     display: flex;
     align-items: center;
     padding: 0.5rem 1.25rem;
     border-right: 1px solid #1b1f23;
-
+    cursor: pointer;
     img {
       width: 18px;
       margin-right: 0.3rem;
