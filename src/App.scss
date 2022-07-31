@@ -2,6 +2,7 @@
 @import "./styles/sidebar";
 @import "./styles/footer";
 @import "./styles/secondSidebar";
+@import "./styles/navbar";
 
 * {
   margin: 0;
@@ -16,6 +17,12 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+.content {
+  display: flex;
+}
+
 .main-content {
   display: flex;
+  flex-direction: column;
+  width: 100%;
 }

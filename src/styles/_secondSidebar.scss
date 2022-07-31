@@ -1,8 +1,9 @@
 .second-sidebar {
-  width: 10rem;
+  width: 16rem;
   background-color: #1f2428;
   display: flex;
   flex-direction: column;
+  border-right: 1px solid #161a1d;
   p {
     padding: 0.5rem 0.7rem;
     text-transform: uppercase;
@@ -10,7 +11,7 @@
   }
   .portfolio-items {
     p {
-      padding: 0 0 0.4rem 0.7rem;
+      padding: 0.9rem 0 0.4rem 0.7rem;
       font-size: 0.9rem;
       text-transform: uppercase;
     }
@@ -18,6 +19,7 @@
       .portfolio-link {
         &:hover {
           background-color: #24292e;
+          cursor: pointer;
         }
 
         display: flex;
@@ -30,5 +32,11 @@
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .second-sidebar {
+    display: none;
   }
 }
