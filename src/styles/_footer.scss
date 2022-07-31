@@ -35,4 +35,29 @@
       }
     }
   }
+  .footer-right {
+    display: flex;
+    align-items: center;
+    .footer-right-div {
+      margin: 0 0.5rem;
+      padding: 0 0.3rem;
+      span {
+        padding-left: 0.3rem;
+      }
+      &:hover {
+        background-color: #4f4f52;
+        cursor: pointer;
+      }
+    }
+    .footer-bell {
+      padding: 0.2rem 0.3rem;
+      margin-right: 0.5rem;
+      display: flex;
+      align-items: center;
+      &:hover {
+        background-color: #4f4f52;
+        cursor: pointer;
+      }
+    }
+  }
 }
