@@ -133,6 +133,33 @@
           font-size: 1.5rem;
         }
       }
+      .home-buttons {
+        button {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .home {
+    align-items: center;
+    justify-content: center;
+    .home-container-left {
+      .home-header {
+        h1 {
+          font-size: 1rem;
+        }
+        p {
+          font-size: 1rem;
+        }
+      }
+      .home-buttons {
+        button {
+          font-size: 0.5rem;
+        }
+      }
     }
   }
 }
