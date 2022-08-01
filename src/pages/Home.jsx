@@ -10,8 +10,8 @@ function Home() {
         </div>
 
         <div className="home-buttons">
-          <button>View Work</button>
-          <button>Contact Me</button>
+          <button className="primary-button">View Work</button>
+          <button className="secondary-button">Contact Me</button>
         </div>
       </div>
 
