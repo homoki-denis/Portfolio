@@ -69,6 +69,25 @@
   align-items: center;
   height: 90%;
   padding: 0 1rem;
+  .home-container-left {
+    .home-header {
+      margin: 0.5rem 0;
+      h1 {
+        font-size: 4.5rem;
+      }
+
+      p {
+        font-size: 2rem;
+      }
+    }
+    .home-buttons {
+      button {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        margin-right: 1rem;
+      }
+    }
+  }
   .home-svg {
     svg {
       max-width: 100%;
