@@ -1,0 +1,78 @@
+#cloud1 {
+  animation: cloud 2s infinite ease-in-out alternate;
+}
+
+@keyframes cloud {
+  from {
+    transform: translate(30px);
+  }
+  to {
+    transform: translate(-60px);
+  }
+}
+
+#cloud2 {
+  animation: cloud2 3s infinite ease-in-out alternate;
+}
+
+@keyframes cloud2 {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(60px);
+  }
+}
+
+#mouse {
+  animation: mouse 1.5s infinite ease-in-out alternate;
+}
+
+@keyframes mouse {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(120px);
+  }
+}
+
+#hand {
+  animation: hand 0.5s infinite ease-in-out alternate;
+}
+
+@keyframes hand {
+  from {
+    transform: translateY(-40px);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
+
+#hand2 {
+  animation: hand2 0.3s infinite ease-in-out alternate;
+}
+
+@keyframes hand2 {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
+
+.home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90%;
+  padding: 0 1rem;
+  .home-svg {
+    svg {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
