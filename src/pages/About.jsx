@@ -35,8 +35,8 @@ function About() {
                 <img
                   className="about-main-img"
                   src="https://scontent.ftsr1-2.fna.fbcdn.net/v/t1.6435-9/144627811_2636368316487965_2875253311471214965_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeE4S-gw-VNzhhvu-fmuKCEzdZf2F2yYxqp1l_YXbJjGqqiPAJZgNSLAwV3LxpKzvn_R4fiprzDs20HFo1I97Pst&_nc_ohc=HLxygjg2cdsAX_KbTXS&tn=9EqF55MIKOrYhj7G&_nc_ht=scontent.ftsr1-2.fna&oh=00_AT-KOLrnFjOGSyUPBT3TTH86yusUwHNWk67Y5ljv1stIlg&oe=630E7DC6"
-                />{" "}
-                {'alt="This is me 😎"'}
+                />
+                {'"'} {'alt="This is me 😎"'}
                 {"/>"}
               </span>
             </span>
