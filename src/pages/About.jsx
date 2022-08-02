@@ -18,7 +18,11 @@ function About() {
                 work I've done. I define myself by the work i want to do. Skills
                 can be taught by doing things on your own. I prefer to keep
                 learning, continue challenging myself, and build interesting
-                things that matter. 🏆 Oh, and by the way.
+                things that{" "}
+                <span>
+                  {"<u>"} <u>matter</u> {"</u>"}
+                </span>
+                . 🏆 Oh, and by the way.
               </span>{" "}
               {"</p>"}
             </span>
@@ -45,11 +49,39 @@ function About() {
                 I have an abundance of energy and passion, and I'm more than
                 eager to follow my interests wherever they may lead me. I'm a
                 passionate, outgoing and creative with a built-in capacity to
-                inspire and amuse. I'm never content to simply generate ideas.
-                Instead, I feel compelled to take action on them nearly
-                immediately.
+                inspire and amuse. ¯\_(ツ)_/¯ I'm never content to simply
+                generate ideas. Instead, I feel compelled to take action on them
+                nearly immediately. 💪
               </span>{" "}
               {"</p>"}
+            </span>
+          </div>
+
+          <div>
+            <span className="about-main-desc">
+              {"<p>"}{" "}
+              <span className="about-main-p">
+                My boundless energy enables me to pursue a wide range of
+                interests, pastimes, academic specialties, and creative
+                pursuits. I can take up new abilities quickly, handle numerous
+                projects and tasks, and{" "}
+                <span>
+                  {" "}
+                  {"<b>"}
+                  <b> I'm a quick learner </b>
+                  {"</b>"}
+                </span>
+                .
+              </span>{" "}
+              {"</p>"}
+            </span>
+          </div>
+
+          <div>
+            <span className="about-main-desc">
+              {"<button>"}
+              <button className="primary-button">Get My CV</button>
+              {"</button>"}
             </span>
           </div>
         </div>
