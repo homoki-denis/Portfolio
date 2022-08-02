@@ -1,0 +1,32 @@
+.about {
+  .about-container {
+    padding: 2rem;
+    .about-header {
+      color: #7858a6;
+      font-size: 2rem;
+      .about-title {
+        color: #fff;
+      }
+    }
+    .about-main {
+      padding: 0 0 0 2rem;
+      color: #7858a6;
+      max-width: 75%;
+      div {
+        margin: 1rem 0;
+      }
+      .about-main-desc {
+        font-size: 1.3rem;
+
+        .about-main-p {
+          color: #fff;
+          line-height: 1.8rem;
+        }
+        .about-main-img {
+          width: 200px;
+          height: auto;
+        }
+      }
+    }
+  }
+}

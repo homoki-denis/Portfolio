@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 // import * as React from 'react';
 // import { useLocation } from 'react-router-dom';
@@ -17,7 +16,7 @@ import { useLocation } from "react-router-dom";
 const Sidebar = () => {
   let location = useLocation();
 
-  console.log(location.pathname);
+  // console.log(location.pathname);
 
   return (
     <div className="sidebar">
