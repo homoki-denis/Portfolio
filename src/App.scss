@@ -29,3 +29,15 @@ html {
   flex-direction: column;
   width: 100%;
 }
+
+input,
+textarea {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 0.75rem;
+  background-color: #1f2428;
+  border: none;
+  color: #fff;
+  resize: none;
+  outline-color: #7858a6;
+}

@@ -6,7 +6,7 @@ function Contact() {
       <div className="contact-container">
         <div className="contact-socials">
           <div>
-            <h1>Reach Out To Me</h1>
+            <h1>Reach Out To Me Via Socials</h1>
           </div>
           <div className="contact-lines">
             <span className="social">.socials </span>
@@ -36,10 +36,27 @@ function Contact() {
           </div>
         </div>
         <div className="contact-form">
-          <form>
-            <input type="text" />
-            <input type="text" />
-            <input type="text" />
+          <div>
+            <h1>Or With This Form</h1>
+          </div>
+          <form className="form-container">
+            <div className="form-header">
+              <div>
+                <p>NAME</p>
+                <input type="text" className="mg-l" />
+              </div>
+              <div>
+                <p>EMAIL</p>
+                <input type="email" />
+              </div>
+            </div>
+            <div className="form-footer">
+              <p>SUBJECT</p>
+              <input type="text" />
+              <p>MESSAGE</p>
+              <textarea name="" id="" cols="30" rows="5"></textarea>
+            </div>
+            <button className="secondary-button">Submit</button>
           </form>
         </div>
       </div>
