@@ -41,3 +41,14 @@ textarea {
   resize: none;
   outline-color: #7858a6;
 }
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1432px) {
+  input,
+  textarea {
+    font-size: 1rem;
+  }
+}

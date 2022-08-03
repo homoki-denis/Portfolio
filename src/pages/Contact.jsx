@@ -12,25 +12,66 @@ function Contact() {
             <span className="social">.socials </span>
             <span className="curlybrace">{"{"}</span>
             <p className="contact-line">
-              website: <span className="contact-name">name</span>{" "}
+              website:{" "}
+              <a
+                href="https://my-blog-iota-seven.vercel.app/"
+                target="_blank"
+                className="contact-link"
+              >
+                {" "}
+                <span className="contact-name">homokidenis.me</span>
+              </a>{" "}
             </p>
             <p className="contact-line">
-              email: <span className="contact-name">name</span>{" "}
+              github:{" "}
+              <a href="https://github.com/homoki-denis">
+                {" "}
+                <span className="contact-name">homoki-denis</span>
+              </a>{" "}
             </p>
             <p className="contact-line">
-              github: <span className="contact-name">name</span>{" "}
+              email:{" "}
+              <a href="mailto:homoki.denisth@gmail.com">
+                {" "}
+                <span className="contact-name">homoki.denisth@gmail.com</span>
+              </a>{" "}
+            </p>
+
+            <p className="contact-line">
+              linkedin:{" "}
+              <a href="https://www.linkedin.com/in/denis-homoki-941180223/">
+                {" "}
+                <span className="contact-name">denis-homoki</span>
+              </a>{" "}
             </p>
             <p className="contact-line">
-              linkedin: <span className="contact-name">name</span>{" "}
+              replit:{" "}
+              <a href="https://replit.com/@homoki-denis">
+                {" "}
+                <span className="contact-name">homoki-denis</span>
+              </a>{" "}
+            </p>
+
+            <p className="contact-line">
+              instagram:{" "}
+              <a href="https://www.instagram.com/homoki.denis/">
+                {" "}
+                <span className="contact-name">homoki.denis</span>
+              </a>{" "}
             </p>
             <p className="contact-line">
-              instagram: <span className="contact-name">name</span>{" "}
+              codepen:{" "}
+              <a href="https://codepen.io/hdt-cmd">
+                {" "}
+                <span className="contact-name">hdt-cmd</span>
+              </a>{" "}
             </p>
             <p className="contact-line">
-              codepen: <span className="contact-name">name</span>{" "}
-            </p>
-            <p className="contact-line">
-              codesandbox: <span className="contact-name">name</span>{" "}
+              codesandbox:{" "}
+              <a href="https://codesandbox.io/u/hdt-cmd">
+                {" "}
+                <span className="contact-name">hdt-cmd</span>
+              </a>{" "}
             </p>
             <span className="curlybrace curly-line">{"}"}</span>
           </div>
