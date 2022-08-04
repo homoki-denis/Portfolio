@@ -7,7 +7,7 @@ export default [
     id: 1,
     card_title: "My Blog",
     card_desc: "This is my blog and I love it ",
-    what_use: ["react", "materialUI", "scss"],
+    what_use: ["react", "material-ui", "scss"],
     source_code: "https://github.com/homoki-denis/my-blog",
     live_demo: "https://my-blog-iota-seven.vercel.app/",
     img_card: blog,

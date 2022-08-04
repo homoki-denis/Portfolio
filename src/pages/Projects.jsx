@@ -11,7 +11,17 @@ function Projects() {
         <h3 className="card-title">{item.card_title}</h3>
         <p className="description">{item.card_desc}</p>
         <div className="what-i-use">
-          <span className="program-used">{item.what_use}</span>
+          {item.what_use.map((el) => (
+            <span
+              className={`program-used ${
+                "react" && el.includes("react")
+                  ? "material" && el.includes("material-ui")
+                  : "scss" && el.includes("scss")
+              }`}
+            >
+              {el}
+            </span>
+          ))}
         </div>
         <div className="card-footer">
           <a href={item.source_code}>
