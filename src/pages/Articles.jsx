@@ -1,9 +1,23 @@
 import React from "react";
+import card from "../articlesCard";
 
 function Articles() {
+  const cards = card.map((item) => {
+    return (
+      <a href={item.link}>
+        <div className="article-card">
+          <img src={item.img_card} alt="img" />
+          <h2 className="article-header">{item.card_title}</h2>
+          <p className="article-subtitle">{item.card_desc}</p>
+        </div>
+      </a>
+    );
+  });
+
   return (
-    <div>
-      <h1>This is the Article Page</h1>
+    <div className="articles">
+      <h1>Posts from my blog</h1>
+      <div className="articles-cards">{cards}</div>
     </div>
   );
 }
