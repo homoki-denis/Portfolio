@@ -1,3 +1,72 @@
 .github-container {
   padding: 2rem;
+  .github-header {
+    background-color: #1f2428;
+    height: 100px;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .github-img {
+      display: flex;
+      align-items: center;
+      padding: 0 1rem;
+      border-right: 2px solid #7858a6;
+      flex-wrap: wrap;
+      span {
+        font-size: 1.5rem;
+      }
+      img {
+        width: 3.5rem;
+        margin-right: 0.5rem;
+        height: auto;
+      }
+    }
+    .github-repos {
+      padding: 0 1rem;
+      font-size: 1.5rem;
+    }
+  }
+  .github-content {
+    display: grid;
+    grid-gap: 1.5rem;
+    gap: 1.5rem;
+    margin: 1rem 0;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    .github-card {
+      background-color: #1f2428;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      transition: box-shadow 0.2s ease-in-out;
+      &:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+      .github-card-title {
+        color: #7858a6;
+        font-size: 1.4rem;
+        font-weight: 700;
+        margin: 0 0 0.4rem 0;
+      }
+      .github-card-subtitle {
+        font-size: 1.1rem;
+      }
+      .github-links {
+        svg {
+          margin-left: 0.4rem;
+          color: #7858a6;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .github-footer {
+    p {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+    }
+  }
 }
