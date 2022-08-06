@@ -2,8 +2,10 @@ import React from "react";
 
 function Github() {
   return (
-    <div>
-      <h1>This is the Github Page</h1>
+    <div className="github">
+      <div className="github-container">
+        <iframe src="https://www.w3schools.com/html/html_iframe.asp" />
+      </div>
     </div>
   );
 }
