@@ -18,7 +18,6 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <TopNav />
-
         <div className="content">
           <Sidebar />
           <SecondSideBar />
