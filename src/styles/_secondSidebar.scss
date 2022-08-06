@@ -16,6 +16,9 @@
       text-transform: uppercase;
     }
     .portfolio-links {
+      a {
+        color: #fff;
+      }
       .portfolio-link {
         &:hover {
           background-color: #24292e;
