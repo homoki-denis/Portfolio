@@ -38,26 +38,50 @@
         .what-i-use {
           padding: 1rem 0 0 1rem;
           .program-used {
-            padding: 0.2rem 0.5rem;
+            padding: 0.2rem 0.7rem;
             margin: 0.5rem 0.5rem 0 0;
             border-radius: 20px;
             // border: 2px solid #7858a6;
-            transition: 0.5s background-color ease-in-out;
-
-            &:hover {
-              background-color: #4f3770;
-              transition: 0.5s background-color ease-in-out;
-            }
+            transition: 0.3s background-color ease-in-out;
           }
           .react {
-            color: green;
+            border: 0.13rem solid #61dafb;
+            &:hover {
+              background: #2b788d;
+            }
           }
-          .material {
-            color: red;
+          .material-ui {
+            border: 0.13rem solid #1976d2;
+            &:hover {
+              background: #164f88;
+            }
           }
 
           .scss {
-            color: yellow;
+            border: 0.13rem solid #bf4080;
+            &:hover {
+              background: #7c2a53;
+            }
+          }
+
+          .javascript {
+            border: 0.13rem solid #fcdc00;
+            &:hover {
+              background: #c2ab18;
+            }
+          }
+
+          .css {
+            border: 0.13rem solid #2862e9;
+            &:hover {
+              background: #0f47c9;
+            }
+          }
+          .html {
+            border: 0.13rem solid #dd4b25;
+            &:hover {
+              background: #af3a1d;
+            }
           }
         }
 
