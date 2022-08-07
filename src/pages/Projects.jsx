@@ -12,15 +12,7 @@ function Projects() {
         <p className="description">{item.card_desc}</p>
         <div className="what-i-use">
           {item.what_use.map((el) => (
-            <span
-              className={`program-used ${
-                "react" && el.includes("react")
-                  ? "material" && el.includes("material-ui")
-                  : "scss" && el.includes("scss")
-              }`}
-            >
-              {el}
-            </span>
+            <span className={`program-used ${el}`}>{el}</span>
           ))}
         </div>
         <div className="card-footer">
