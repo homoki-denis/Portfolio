@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -10,7 +11,9 @@ function Home() {
         </div>
 
         <div className="home-buttons">
-          <button className="primary-button">View Work</button>
+          <Link to="projects">
+            <button className="primary-button">View Work</button>
+          </Link>
           <button className="secondary-button">Contact Me</button>
         </div>
       </div>
