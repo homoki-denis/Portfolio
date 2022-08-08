@@ -4,7 +4,7 @@ import card from "../articlesCard";
 function Articles() {
   const cards = card.map((item) => {
     return (
-      <a href={item.link}>
+      <a target="_blank" href={item.link}>
         <div className="article-card">
           <img src={item.img_card} alt="img" />
           <h2 className="article-header">{item.card_title}</h2>

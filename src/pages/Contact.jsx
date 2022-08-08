@@ -1,6 +1,30 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "emailjs-com";
 
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_vqsdrfd",
+        "template_1fblirf",
+        form.current,
+        "jxpw2CnPUiYiDcEPV"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   return (
     <div className="contact">
       <div className="contact-container">
@@ -24,14 +48,14 @@ function Contact() {
             </p>
             <p className="contact-line">
               github:{" "}
-              <a href="https://github.com/homoki-denis">
+              <a href="https://github.com/homoki-denis" target="_blank">
                 {" "}
                 <span className="contact-name">homoki-denis</span>
               </a>{" "}
             </p>
             <p className="contact-line">
               email:{" "}
-              <a href="mailto:homoki.denisth@gmail.com">
+              <a href="mailto:homoki.denisth@gmail.com" target="_blank">
                 {" "}
                 <span className="contact-name">homoki.denisth@gmail.com</span>
               </a>{" "}
@@ -39,14 +63,17 @@ function Contact() {
 
             <p className="contact-line">
               linkedin:{" "}
-              <a href="https://www.linkedin.com/in/denis-homoki-941180223/">
+              <a
+                href="https://www.linkedin.com/in/denis-homoki-941180223/"
+                target="_blank"
+              >
                 {" "}
                 <span className="contact-name">denis-homoki</span>
               </a>{" "}
             </p>
             <p className="contact-line">
               replit:{" "}
-              <a href="https://replit.com/@homoki-denis">
+              <a href="https://replit.com/@homoki-denis" target="_blank">
                 {" "}
                 <span className="contact-name">homoki-denis</span>
               </a>{" "}
@@ -54,21 +81,21 @@ function Contact() {
 
             <p className="contact-line">
               instagram:{" "}
-              <a href="https://www.instagram.com/homoki.denis/">
+              <a href="https://www.instagram.com/homoki.denis/" target="_blank">
                 {" "}
                 <span className="contact-name">homoki.denis</span>
               </a>{" "}
             </p>
             <p className="contact-line">
               codepen:{" "}
-              <a href="https://codepen.io/hdt-cmd">
+              <a href="https://codepen.io/hdt-cmd" target="_blank">
                 {" "}
                 <span className="contact-name">hdt-cmd</span>
               </a>{" "}
             </p>
             <p className="contact-line">
               codesandbox:{" "}
-              <a href="https://codesandbox.io/u/hdt-cmd">
+              <a href="https://codesandbox.io/u/hdt-cmd" target="_blank">
                 {" "}
                 <span className="contact-name">hdt-cmd</span>
               </a>{" "}
@@ -80,24 +107,28 @@ function Contact() {
           <div>
             <h1>Or With This Form</h1>
           </div>
-          <form className="form-container">
+          <form ref={form} onSubmit={sendEmail} className="form-container">
             <div className="form-header">
               <div>
                 <p>NAME</p>
-                <input type="text" className="mg-l" />
+                <input type="text" className="mg-l" name="name" />
               </div>
               <div>
                 <p>EMAIL</p>
-                <input type="email" />
+                <input type="email" name="email" />
               </div>
             </div>
             <div className="form-footer">
               <p>SUBJECT</p>
-              <input type="text" />
+              <input type="text" name="subject" />
               <p>MESSAGE</p>
-              <textarea name="" id="" cols="30" rows="5"></textarea>
+              <textarea id="" cols="30" rows="5" name="message"></textarea>
             </div>
-            <button className="secondary-button">Submit</button>
+            <input
+              type="submit"
+              value="Send"
+              className="secondary-button contact-btn"
+            />
           </form>
         </div>
       </div>

@@ -14,7 +14,9 @@ function Home() {
           <Link to="projects">
             <button className="primary-button">View Work</button>
           </Link>
-          <button className="secondary-button">Contact Me</button>
+          <Link to="contact">
+            <button className="secondary-button">Contact Me</button>
+          </Link>
         </div>
       </div>
 

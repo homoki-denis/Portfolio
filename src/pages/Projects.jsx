@@ -16,11 +16,11 @@ function Projects() {
           ))}
         </div>
         <div className="card-footer">
-          <a href={item.source_code}>
+          <a href={item.source_code} target="_blank">
             {" "}
             <button className="source-code">Source Code</button>
           </a>
-          <a href={item.live_demo}>
+          <a href={item.live_demo} target="_blank">
             {" "}
             <button className="live-demo">Live Demo</button>
           </a>
