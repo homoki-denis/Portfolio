@@ -20,7 +20,7 @@ function Navbar() {
         </div>
       </Link>
 
-      <Link className="link" to="about">
+      <Link className="link" to="/about">
         <div
           className={`navbar-items ${
             location.pathname === "/about" && "navbar-active"
@@ -34,7 +34,7 @@ function Navbar() {
         </div>
       </Link>
 
-      <Link className="link" to="contact">
+      <Link className="link" to="/contact">
         <div
           className={`navbar-items ${
             location.pathname === "/contact" && "navbar-active"
@@ -45,7 +45,7 @@ function Navbar() {
         </div>
       </Link>
 
-      <Link className="link" to="projects">
+      <Link className="link" to="/projects">
         <div
           className={`navbar-items ${
             location.pathname === "/projects" && "navbar-active"
@@ -59,7 +59,7 @@ function Navbar() {
         </div>
       </Link>
 
-      <Link className="link" to="articles">
+      <Link className="link" to="/articles">
         <div
           className={`navbar-items ${
             location.pathname === "/articles" && "navbar-active"
@@ -73,7 +73,7 @@ function Navbar() {
         </div>
       </Link>
 
-      <Link className="link" to="github">
+      <Link className="link" to="/github">
         <div
           className={`navbar-items ${
             location.pathname === "/github" && "navbar-active"

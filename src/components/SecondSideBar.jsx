@@ -19,7 +19,7 @@ function SecondSideBar() {
             </div>
           </Link>
 
-          <Link to="about">
+          <Link to="/about">
             <div className="portfolio-link">
               <img
                 src="https://vscode-portfolio.vercel.app/_next/image?url=%2Fhtml_icon.svg&w=32&q=75"
@@ -29,14 +29,14 @@ function SecondSideBar() {
             </div>
           </Link>
 
-          <Link to="contact">
+          <Link to="/contact">
             <div className="portfolio-link">
               <img src="https://img.icons8.com/color/344/sass.png" alt="scss" />{" "}
               <span>contact.scss</span>
             </div>
           </Link>
 
-          <Link to="projects">
+          <Link to="/projects">
             <div className="portfolio-link">
               <img
                 src="https://vscode-portfolio.vercel.app/_next/image?url=%2Fjs_icon.svg&w=32&q=75"
@@ -46,7 +46,7 @@ function SecondSideBar() {
             </div>
           </Link>
 
-          <Link to="articles">
+          <Link to="/articles">
             <div className="portfolio-link">
               <img
                 src="https://vscode-portfolio.vercel.app/_next/image?url=%2Fjson_icon.svg&w=32&q=75"
@@ -56,7 +56,7 @@ function SecondSideBar() {
             </div>
           </Link>
 
-          <Link to="github">
+          <Link to="/github">
             <div className="portfolio-link">
               <img
                 src="https://vscode-portfolio.vercel.app/_next/image?url=%2Fmarkdown_icon.svg&w=32&q=75"

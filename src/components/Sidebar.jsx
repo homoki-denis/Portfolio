@@ -38,7 +38,7 @@ const Sidebar = () => {
           </div>
         </Link>
 
-        <Link to="github">
+        <Link to="/github">
           <div className="sidebar-container">
             <svg
               width="24"
@@ -55,7 +55,7 @@ const Sidebar = () => {
           </div>
         </Link>
 
-        <Link to="projects">
+        <Link to="/projects">
           <div className="sidebar-container">
             <svg
               width="16"
@@ -72,7 +72,7 @@ const Sidebar = () => {
           </div>
         </Link>
 
-        <Link to="articles">
+        <Link to="/articles">
           <div className="sidebar-container">
             <svg
               width="16"
@@ -89,7 +89,7 @@ const Sidebar = () => {
           </div>
         </Link>
 
-        <Link to="contact">
+        <Link to="/contact">
           <div className="sidebar-container">
             <svg
               width="16"
@@ -112,7 +112,7 @@ const Sidebar = () => {
       </div>
 
       <div className="sidebar-bottom">
-        <Link to="about">
+        <Link to="/about">
           <div className="sidebar-container">
             <svg
               width="24"
