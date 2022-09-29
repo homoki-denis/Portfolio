@@ -5,6 +5,7 @@ import todo from "./images/todo.png";
 import guess from "./images/guess-number.png";
 import markai from "./images/markai.png";
 import advice from "./images/advice.png";
+import giphy from "./images/giphy.png";
 
 export default [
   {
@@ -27,6 +28,15 @@ export default [
   },
   {
     id: 3,
+    card_title: "Giphy Simple Clone",
+    card_desc: "A simple Giphy clone, with local storage",
+    what_use: ["react", "scss"],
+    source_code: "https://github.com/homoki-denis/Giphy-Simple-Clone",
+    live_demo: "https://inspiring-klepon-5c5859.netlify.app/",
+    img_card: giphy,
+  },
+  {
+    id: 4,
     card_title: "Guess The Number",
     card_desc: "An app where you need to guess a number",
     what_use: ["javascript", "css", "html"],
@@ -35,7 +45,7 @@ export default [
     img_card: guess,
   },
   {
-    id: 4,
+    id: 5,
     card_title: "Advice App",
     card_desc: "A simple advice app with an advice API call",
     what_use: ["scss", "react"],
@@ -45,7 +55,7 @@ export default [
   },
 
   {
-    id: 5,
+    id: 6,
     card_title: "Todo App",
     card_desc: "A simple Todo App",
     what_use: ["scss", "react"],
@@ -54,7 +64,7 @@ export default [
     img_card: todo,
   },
   {
-    id: 6,
+    id: 7,
     card_title: "Product Landing Page",
     card_desc: "One of my first projects, when I started to learn html and css",
     what_use: ["html", "css"],
@@ -63,7 +73,7 @@ export default [
     img_card: product,
   },
   {
-    id: 7,
+    id: 8,
     card_title: "Markai Landing Page",
     card_desc: "A more complex landing page",
     what_use: ["html", "css"],
