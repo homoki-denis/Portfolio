@@ -1,29 +1,103 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 function Home() {
+  const containerVariants = {
+    hidden: {
+      opacity: 0,
+      y: -50,
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: 0.5,
+        duration: 0.5,
+      },
+    },
+  };
+
+  const textVariants = {
+    hidden: {
+      opacity: 0,
+      x: -50,
+    },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: {
+        delay: 1,
+        duration: 0.5,
+      },
+    },
+  };
+
+  const buttonVariants = {
+    hidden: {
+      opacity: 0,
+      x: -50,
+    },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: {
+        duration: 0.5,
+      },
+    },
+  };
+
   return (
     <div className="home">
       <div className="home-container-left">
-        <div className="home-header">
-          <h1>Denis Homoki</h1>
-          <p>Junior Front End Developer</p>
-        </div>
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+          className="home-header"
+        >
+          <motion.h1 variants={textVariants}>Denis Homoki</motion.h1>
+          <motion.p variants={textVariants}>
+            Junior Front End Developer
+          </motion.p>
+        </motion.div>
 
-        <div className="home-buttons">
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+          className="home-buttons"
+        >
           <Link to="projects">
-            <button className="primary-button">View Work</button>
+            <motion.button variants={buttonVariants} className="primary-button">
+              View Work
+            </motion.button>
           </Link>
           <Link to="contact">
-            <button className="secondary-button">Contact Me</button>
+            <motion.button
+              variants={buttonVariants}
+              className="secondary-button"
+            >
+              Contact Me
+            </motion.button>
           </Link>
-        </div>
+        </motion.div>
       </div>
 
-      <div className="home-svg">
+      <motion.div
+        initial={{ scale: 0 }}
+        animate={{ rotate: 360, scale: 1 }}
+        transition={{
+          type: "spring",
+          stiffness: 110,
+          damping: 20,
+          duration: 2,
+        }}
+        className="home-svg"
+      >
         <svg
           width="600"
-          height="782"
+          height="582"
           viewBox="0 0 805 782"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -436,7 +510,7 @@ function Home() {
             </clipPath>
           </defs>
         </svg>
-      </div>
+      </motion.div>
     </div>
   );
 }
