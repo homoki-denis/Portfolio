@@ -1,6 +1,5 @@
 import computer from "./images/computer.png";
 import glasses from "./images/glasses.png";
-import gf from "./images/first-gf.png";
 
 export default [
   {
@@ -18,14 +17,5 @@ export default [
       "As i said in the last article, I took a break from programming and came back...",
     link: "https://my-blog-iota-seven.vercel.app/improving-the-web",
     img_card: glasses,
-  },
-
-  {
-    id: 3,
-    card_title: "My first GF omg",
-    card_desc:
-      "It was a strange year for me. I start programming again and even finish college. It was really tough...",
-    link: "https://my-blog-iota-seven.vercel.app/my-first-gf",
-    img_card: gf,
   },
 ];
