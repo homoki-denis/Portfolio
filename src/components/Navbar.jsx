@@ -13,7 +13,7 @@ function Navbar() {
           }`}
         >
           <img
-            src="https://vscode-portfolio.vercel.app/_next/image?url=%2Freact_icon.svg&w=32&q=75"
+            src="https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg"
             alt="react"
           />
           <span>home.jsx</span>
@@ -27,7 +27,7 @@ function Navbar() {
           }`}
         >
           <img
-            src="https://vscode-portfolio.vercel.app/_next/image?url=%2Fhtml_icon.svg&w=32&q=75"
+            src="https://www.svgrepo.com/show/452228/html-5.svg"
             alt="react"
           />
           <span>about.html</span>
@@ -52,7 +52,7 @@ function Navbar() {
           }`}
         >
           <img
-            src="https://vscode-portfolio.vercel.app/_next/image?url=%2Fjs_icon.svg&w=32&q=75"
+            src="https://www.svgrepo.com/show/452045/js.svg"
             alt="javascript"
           />
           <span>projects.js</span>
@@ -66,7 +66,7 @@ function Navbar() {
           }`}
         >
           <img
-            src="https://vscode-portfolio.vercel.app/_next/image?url=%2Fjson_icon.svg&w=32&q=75"
+            src="https://www.svgrepo.com/show/373712/json.svg"
             alt="json"
           />
           <span>articles.json</span>
@@ -80,7 +80,7 @@ function Navbar() {
           }`}
         >
           <img
-            src="https://vscode-portfolio.vercel.app/_next/image?url=%2Fmarkdown_icon.svg&w=32&q=75"
+            src="https://www.svgrepo.com/show/512317/github-142.svg"
             alt="github"
           />
           <span>github.mb</span>

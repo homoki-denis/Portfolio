@@ -21,7 +21,7 @@ const TopNav = () => {
     <div className="topnav">
       <div className="navbarItems">
         <img
-          src="https://vscode-portfolio.vercel.app/_next/image?url=%2Fvscode_icon.svg&w=16&q=75"
+          src="https://www.svgrepo.com/show/374171/vscode.svg"
           alt="vscode"
           className="topnav-img"
         />
